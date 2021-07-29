@@ -1,2 +1,2 @@
-# pong-assembly
-[GRAD] Jogo PONG feito para a disciplina de Prática em Organização de Computadores.
+# snake-assembly
+[GRAD] Jogo Snake feito para a disciplina de Prática em Organização de Computadores.
