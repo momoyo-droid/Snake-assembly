@@ -113,7 +113,6 @@ rand: var #100
 	static rand + #98, #613
 	static rand + #99, #671
 
-
 ;;;;;;;;;;;;;;;;;;;;;;;;STRINGS
 winMsg: string "You Won!!!"
 winDel: string "          "
@@ -233,7 +232,7 @@ print:
 
 ;;;;;;;;;;;;;;;;;;;;;;;;SNAKE
 init:
-	loadn r0, #10000
+	loadn r0, #9400
 	store Speed, r0
 
 	loadn r1, #0
@@ -671,7 +670,6 @@ foodRespaw:
 	loadn r0, #0
 	store foodGlobal, r0
 
-
 ;;;;;;;;;;;;;;;;;;;;;;;;GAME LEVEL
 incrementScore:
 	push r0
@@ -681,8 +679,8 @@ incrementScore:
 	push r4
 
 	load r0, Speed
-	loadn r1, #1000
-	sub r0, r0, r1
+	loadn r1, #500
+	add r0, r0, r1
 	store Speed, r0
 
 	loadn r3, #10
@@ -825,6 +823,9 @@ restart:
 		loadn r2, #27
 		loadn r3, #48
 		outchar r3, r2
+
+		loadn r0, #9400
+		store Speed, r0
 
 		jmp mainLoop
 
