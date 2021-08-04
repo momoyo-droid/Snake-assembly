@@ -232,7 +232,7 @@ print:
 
 ;;;;;;;;;;;;;;;;;;;;;;;;SNAKE
 init:
-	loadn r0, #9400
+	loadn r0, #63000
 	store Speed, r0
 
 	loadn r1, #0
@@ -679,8 +679,8 @@ incrementScore:
 	push r4
 
 	load r0, Speed
-	loadn r1, #500
-	add r0, r0, r1
+	loadn r1, #5000
+	sub r0, r0, r1
 	store Speed, r0
 
 	loadn r3, #10
@@ -756,17 +756,30 @@ random:
 
 delay:
 	push r0
+	push r1
+	push r2
 
-	inc r6
-	load r0, Speed
-	cmp r6, r0
-	jgr ResetTimer
+	loadn r1, #0
+	loadn r2, #3
+	delayLoop:
+		inc r6
+		load r0, Speed
+		cmp r6, r0
+		jgr ResetTimer
+		
+		jmp delayLoop
 
-	jmp TimerEnd
+		ResetTimer:
+			inc r1
+			loadn r6, #0
+			cmp r1, r2
+			jne delayLoop
 
-	ResetTimer:
-		loadn r6, #0
+			jmp TimerEnd
+
 	TimerEnd:
+		pop r2
+		pop r1
 		pop r0
 
 	rts
@@ -824,7 +837,7 @@ restart:
 		loadn r3, #48
 		outchar r3, r2
 
-		loadn r0, #9400
+		loadn r0, #63000
 		store Speed, r0
 
 		jmp mainLoop
