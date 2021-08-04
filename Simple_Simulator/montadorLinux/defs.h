@@ -115,7 +115,7 @@
 #define MOV             "110011"
 
 /* Peripheric Instructions: */
-#define INPUT	        "111110"
+#define INPUT 	        "111110"
 #define OUTPUT          "111111"
 
 /* I/O Instructions: */
