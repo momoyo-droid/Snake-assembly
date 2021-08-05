@@ -935,6 +935,7 @@ ResultadoUla ULA(unsigned int x, unsigned int y, unsigned int OP, int carry) {
 						auxFRbits[DIV_BY_ZERO] = 0;
 					}
 					break;
+				// Nova Instrução !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 case MEDIAN:
 					if(carry==1)
 						temp_result = x + y + FR[CARRY];

@@ -809,7 +809,8 @@ void MontarInstrucoes(void)
                     parser_Write_Inst(str_msg,end_cnt);
                     end_cnt += 1;
                     break;
-                
+                    
+				// Nova Instrução !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!            
                 /* ==============
                    Med Rx, Ry, Rz
                    ==============
