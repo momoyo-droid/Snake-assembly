@@ -30,7 +30,7 @@ Para controlar a cobrinha, basta utilizar as teclas 'W', 'A', 'S' e 'D' do tecla
 </html>
 
 # Vídeo de Apresentação 
-- Link: <a href="url">Jogo Snake em Assembly</a>
+- Link: <a href="https://youtu.be/KbJyrjb6QG8">Snake em Assembly</a>
 
 # Implementação da nova instrução no Simple_Simulator
 <html>
