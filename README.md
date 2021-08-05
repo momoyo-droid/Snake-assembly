@@ -22,7 +22,7 @@
     <div align = "justify">
       Para a execução do jogo, é necessário ter os arquivos: 'sim', 'snake.mif' e 'charmap.mif'.<br>
 Em seu terminal, dentro da pasta onde se localizam estes arquivos, digite:</br>
-<b>./sim snake.mif charmap.mif<b> 
+<b>./sim snake.mif charmap.mif</b> 
 <br>
 Para controlar a cobrinha, basta utilizar as teclas 'W', 'A', 'S' e 'D' do teclado.
     </div>
@@ -46,7 +46,7 @@ Para controlar a cobrinha, basta utilizar as teclas 'W', 'A', 'S' e 'D' do tecla
 # Execução da instrução
 Para a execução da instrução, é necessário ter os arquivos: 'simulador' e 'cpuram.mif'.<br>
 Em seu terminal, dentro da pasta onde se localizam estes arquivos, digite: <br>
-<b>./simulador<b>
+<b>./simulador</b>
 
 # Agradecemos a atenção!
 Ana Cristina Silva de Oliveira<br>
