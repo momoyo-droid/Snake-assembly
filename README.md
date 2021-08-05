@@ -49,6 +49,6 @@ Em seu terminal, dentro da pasta onde se localizam estes arquivos, digite: <br>
 <b>./simulador</b>
 
 # Agradecemos a atenção!
-Ana Cristina Silva de Oliveira<br>
-Gustavo Lelli Guirao<br>
-Gustavo de Oliveira Silva
+Ana Cristina Silva de Oliveira [cristina.oliveira@usp.br] [11965630] <br>
+Gustavo Lelli Guirao [gustavo.lelli@usp.br] [11918182] <br>
+Gustavo de Oliveira Silva [gustavo_de_oliveira@usp.br] [10734366]
