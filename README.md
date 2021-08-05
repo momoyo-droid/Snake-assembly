@@ -37,8 +37,8 @@ Para controlar a cobrinha, basta utilizar as teclas 'W', 'A', 'S' e 'D' do tecla
   <body>
     <div align = "justify">
       Desenvolvemos uma nova instrução que calcula a média entre os valores presentes em dois registradores e armazena o resultado em um terceiro registrador.<br>
-      Para isso, modificamos a biblioteca **defs.h**, na qual é responsável por guardar as definições de cada instrução utilizada tanto no montador quanto no simulador.<br>
-      Além disso, alteramos o **simple_simulator_template.c**, que contém os algoritmos de cada uma das instruções, para que possa receber através do **montador.c** os endereços de cada registrador utilizado na operação do código.
+      Para isso, modificamos a biblioteca <b>defs.h</b>, na qual é responsável por guardar as definições de cada instrução utilizada tanto no montador quanto no simulador.<br>
+      Além disso, alteramos o <b>simple_simulator_template.c</b>, que contém os algoritmos de cada uma das instruções, para que possa receber através do <b>montador.c</b> os endereços de cada registrador utilizado na operação do código.
     </div>
   </body>
 </html>
