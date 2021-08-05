@@ -49,6 +49,6 @@ Em seu terminal, dentro da pasta onde se localizam estes arquivos, digite: <br>
 ### ./simulador
 
 # Agradecemos a atenção!
-Ana Cristina Silva de Oliveira
-Gustavo Lelli Guirao
+Ana Cristina Silva de Oliveira<br>
+Gustavo Lelli Guirao<br>
 Gustavo de Oliveira Silva
